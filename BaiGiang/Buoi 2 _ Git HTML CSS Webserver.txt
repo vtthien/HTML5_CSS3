@@ -1,0 +1,13 @@
+Buổi 2:
+
+1. Giới thiệu kênh sử dụng source code: Git
+ - Gửi tài liệu lên theo kênh này (done)
+2. Nội dung chính:
+	- HTML là gì?! (done)
+	HyperText Markup Language
+	- Web server: APACHE (Xampp/ Wamp...)
+		htdocs
+	- CSS là gì?!
+	Cascading Style Sheet (done)
+	- Html Tag là gì? (done)
+		+ Một số Html Tag cơ bản? (working)
