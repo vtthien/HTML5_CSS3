@@ -1,0 +1,26 @@
+1. Công cụ:
+ * IDE (Interface Development Environment)
+ Windows
+ --> công cụ lập trình có giao diện
+	+ notepad++ (free) --> selected (done)
+	+ visual studio code (free) --> selected (done)
+	+ Atom (free) --> selected (done)
+	+ Sublime Text (license)
+	+ Jet brains (web storm)
+ Linux
+	+ Aptana
+ * Công cụ hiển thị và debug
+	+ Browser Internet: Chrome, Firefox (done)
+	+ Developer tool cho Chrome và Firefox (done)
+		Web developer
+		Inspect
+2. Google serch
+	+ Search bằng keyword (từ khóa) (done)
+	+ Search theo hình ảnh (done)
+	+ Search theo video hướng dẫn (done)
+3. Link web để tham khảo thêm
+	+ http://vietjack.com/html/
+	+ https://thachpham.com/series/html-co-ban
+	+ https://www.tutorialspoint.com/html/index.htm
+	+ https://www.w3schools.com/html/
+	+ https://www.w3schools.com/css/
