@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Buổi 3 - HTML LAYOUT</title>
+  <!-- khai báo liên kết css, js... -->
+  <!-- internal css -->
+  <style>
+    header {
+      color: white;
+      border: 1px solid;
+      background-image: url(https://cdn.shopify.com/s/files/1/1479/2830/files/Untitled-1_2000x.jpg?v=1473689611);
+    }
+
+    ul {
+      /* list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1; */
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+li{
+  float:left
+}
+
+    li a {
+
+      /* display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none; */
+
+      display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    }
+
+    li a:hover {
+      /* background-color: #555;
+      color: white; */
+
+      background-color: #111;
+    }
+
+    footer {
+      font-size:24px;
+      text-align:center;
+      color: black;
+      height: 100px;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-OASS6AVZq620mtDfshOLEMtdTGphvWYp3sAdQJf-GxQUlebaQ);
+    }
+
+    .active{
+      background-color: #4CAF50;
+    }
+    .content{
+      width:100%;
+      height:auto;
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- hEADER -->
+  <header>
+    <h1>Tiêu đề trang của website</h1>
+    <p>Học học nữa học mãi!</p>
+    <p style="font-size:14px">logo của cty</p>
+  </header>
+  <!-- menu -->
+  <nav>
+    <ul>
+      <!-- INLINE  -->
+      <li><a href="#">Trang chủ</a></li>
+      <li><a href="#">Thế giới</a></li>
+      <li><a href="#">Thể thao</a></li>
+      <li><a href="#">Giáo dục</a></li>
+      <li><a href="#">Giải trí</a></li>
+      <li><a href="#">Sức khỏe</a></li>
+      <li style="float:right"><a class="active" href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- content body -->
+  <div class="content">
+    <h1>Vai trò của internet trong đời sống xã hội</h1>
+    <br>
+    <p style="font-style:italic,bold">
+      "Internet là nguồn tri thức của xã hội ngày nay!" - Vũ Trọng Thiên
+    </p>
+    <p>
+  Thời đại bùng nổ công nghệ thông tin, các phương tiện thông tin đại chúng ngày càng phát triển, trong đó phát triển mạnh mẽ nhất phải kể đến Internet. Với những ưu thế vượt trội, Internet từ khi ra đời đến nay luôn đóng một vai trò quan trọng trong đời sống xã hội, nó tác động đến mọi mặt, mọi lĩnh vực trong đời sống. Bất kì một lĩnh vực nào cũng đều sử dụng đến Internet.  Nhờ có Internet mà xã hội phát triển nhanh hơn, mạnh hơn. Xã hội càng phát triển thì vai trò của Internet càng được thể hiện rõ hơn. Trong xã hội thông tin như hiện nay, con người không thể làm việc nếu như không thể làm việc thiếu Internet và cũng không thể sống nếu không có nó.
+    </p>
+    <p>
+Internet là công cụ tiện lợi nhất để truyền tải một số lượng thông tin lớn với tốc độ nhanh đến hàng triệu người trên toàn thế giới. Chỉ cần một cái máy tính được kết nối Internet, mọi người đều giống như có trong tay  mình một quyển bách khoa toàn thư, có thể tìm kiếm những thông tin mà mình cần.  Lượng thông tin mà Internet cung cấp là không giới hạn. Thông qua Internet, thông tin được cập nhật hàng giờ, hàng ngày, mọi người đều có thể biết được những gì đang xảy ra xung quanh mình và cả trên thế giới. Với mạng phủ sóng rộng trên toàn cầu, Internet không là của riêng ai. Mọi người đều có thể sử dụng Internet để truy cập thông tin.  Tốc độ truy cập thông tin trên Internet thì cực kì nhanh, với sự hỗ trợ của những công cụ tìm kiếm như Google, mọi người có thể tìm kiếm thông tin chỉ trong vài giây. Chỉ cần gõ từ khóa về vấn đề cần tìm thì hàng loạt thông tin liên quan đến vấn đề đó sẽ hiện ra cho bạn lựa chọn.
+    </p>
+    <hr>
+    <p style="font-style:italic,bold">
+      "Nguồn tri thức Internet cần phải được chọn lọc!" - Vũ Trọng Thiên
+    </p>
+<p>
+Nhiều người, đặc biệt là giới trẻ nghiện các chương trình, trò chơi trực tuyến mà bỏ bê công việc, học tập, gây ra nhiều ảnh hưởng xấu cuộc sống. Hơn thế nữa, nhiều khi họ còn bị ảo tưởng bởi các trò chơi có nội dung bạo lực và không lành mạnh, cho rằng cuộc sống ngoài đời thực là những gì đang diễn ra trong trò chơi và gây ra những hậu quả đáng tiếc. Một số người trở nên nghiện Internet và tìm đến Internet bất cứ lúc nào rảnh rỗi, quên ăn, quên ngủ  với phim ảnh, chat, game…Hiện tượng này đang ngày càng phổ biến đối với giới trẻ và trở thành một tệ nạn trong xã hội. Nguy hiểm hơn nữa là hiện tượng các trang web đen, clip, hình ảnh sex ngày càng xuất hiện nhiều trên mạng có số lượng người truy cập ngày càng nhiều và tốc độ lan truyền rất nhanh.
+</p>
+<p>
+  Việc sử dụng công cụ tìm kiếm trên intenet cũng khiến nhiều bạn trẻ trở nên lười suy nghĩ, tư duy. Rất nhiều học sinh, sinh viên khi có bài tập ở nhà thì không chịu suy nghĩa, đọc sách tìm hiểu mà chỉ vào google tìm và sao chép nguyên văn những thứ có ở trên mạng, nhiều khi chỉ sao chép mà không chịu đọc. Chính vì thế mà làm cho các bạn thụ trở nên thụ động trong học tập cũng như trong công việc.
+</p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/32sYGCOYJUM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<img src="http://congnghieptieudung.vn/Content/images/tin%20t%E1%BB%A9c/Th%E1%BB%9Di%20s%E1%BB%B1/Cu%E1%BB%99c%20CMCN%204_0%20s%E1%BA%BD%20mang%20l%E1%BA%A1i%20nhi%E1%BB%81u%20c%C6%A1%20h%E1%BB%99i%20cho%20Vi%E1%BB%87t%20Nam%20(%E1%BA%A3nh%20internet).jpg" alt="Mountain View">
+  </div>
+
+  <!-- footer  -->
+  <footer>
+    Đây là footer
+  </footer>
+</body>
+
+</html>

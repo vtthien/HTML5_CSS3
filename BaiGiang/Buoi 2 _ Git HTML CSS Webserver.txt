@@ -11,3 +11,6 @@ Buổi 2:
 	Cascading Style Sheet (done)
 	- Html Tag là gì? (done)
 		+ Một số Html Tag cơ bản? (working)
+		+ Heading (h1,h2,..., h6)
+		+ Paragraph (p)
+		

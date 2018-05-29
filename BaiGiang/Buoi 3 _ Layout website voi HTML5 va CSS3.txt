@@ -1,1 +1,23 @@
 Buổi 3 - Layout với HTML5 và CSS 3
+1. Lý thuyết của layout website
+2. Thẻ html liên quan đến layout
+	+ header
+	+ footer
+	+ nav
+	+ ul
+	+ li
+	+ div
+3. Làm quen khái niệm CSS
+	+ INLINE CSS
+	+ INTERNAL CSS
+4. Làm quen các thẻ thuộc tính CSS
+	+ color
+	+ border
+	+ background-image
+	+ margin
+	+ padding
+	+ float
+	+ display
+	+ list-style-type
+	+ hover
+	+ text-align
