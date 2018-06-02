@@ -1,0 +1,56 @@
+
+    header{
+      font-size:80px;
+    }
+
+    h1{
+      font-size :40px;
+    }
+
+    h1.heading{
+      border-top-style: solid;
+      border-bottom-style: dashed ;
+      border-right-style: dotted ;
+      border-left-style: double ;
+    }
+    h2.heading{
+      border:5px solid red;
+    }
+    p, a{
+      font-size:20px;
+    }
+
+    #DoanVanGhiChu{
+      color:red;
+    }
+
+    .paragraph{
+      font-style:italic;
+    }
+
+    .hinhanh{
+      border:5px solid;
+      border-color: aqua;
+    }
+
+    .football{
+      border-radius: 400px;
+    }
+
+    .technique{
+      border-radius: 1px;
+    }
+
+    #HinhCupVoDichWordCup{
+      opacity: 0.5;
+    }
+    #smarthome{
+      filter:grayscale(50%);
+    }
+
+    div#contact{
+      font-style: italic;
+      font-size:40px;
+      color:blue;
+    }
+  
