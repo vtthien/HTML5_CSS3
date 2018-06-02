@@ -1,0 +1,11 @@
+Buổi 4 - Layout với HTML5 và CSS 3
+1. Review lý thuyết CSS
+2. Định nghĩa và Các cách dùng CSS
+3. Làm quen các css
+	+ color
+	+ background
+	+ border
+	+ margin
+	+ padding
+	+ height/ weight
+	+ Box model
