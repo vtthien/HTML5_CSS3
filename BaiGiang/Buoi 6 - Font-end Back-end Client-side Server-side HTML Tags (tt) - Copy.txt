@@ -1,0 +1,37 @@
+Buổi 6
+1. Khái niệm front-end, backend
+2. Khái niệm: server side, client side
+3. Programing language: front-end, back-end
+3. Khảo sát thẻ HTML
+images
+	src
+		Đường dẫn tương đối
+		Đường dẫn tuyệt đối
+		Link tài nguyên (file url)
+	style --> css
+		width
+		height
+		filter
+		border
+tables
+	<table>
+		<tr> --> table row
+			th --> table header/ heading
+			td	--> table data
+	style
+		border
+		data alignment
+		column size
+
+lists
+	ul
+	ol
+		type
+		li
+		li
+Blocks
+	<div>
+classes
+id
+iframe
+javascript

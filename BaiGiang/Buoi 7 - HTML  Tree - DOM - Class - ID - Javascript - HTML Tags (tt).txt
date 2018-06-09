@@ -1,0 +1,29 @@
+Buổi 6
+1. Khái niệm HTML Tree
+2. DOM - Document Object Model
+3. JavaScript
+4. ID, Class
+5. HTML id, Class
+6. CSS id, Class
+7. Responsive
+
+8. Entities HTML
+	Reserve characters
+9. Character set
+10. Url Encode
+	
+classes
+id
+iframe
+javascript
+File path
+	tương đối
+	Tuyệt đối
+	uRL
+head
+	meta
+	link
+	script
+	base
+Entities
+Character Set

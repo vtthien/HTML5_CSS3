@@ -10,7 +10,8 @@ Buổi 5 - Cấu trúc website và các thẻ HTML cơ bản
  
  THỰC HÀNH:
   - Tạo 1 website có cấu trúc folder như gợi ý
-  - Download css bootstrap framework (https://getbootstrap.com/)
+  - Download css bootstrap framework 
+	(https://getbootstrap.com/)
   - Tham khảo trang: 
 	https://getbootstrap.com/docs/4.0/getting-started/introduction/
 	https://getbootstrap.com/docs/3.3/components/

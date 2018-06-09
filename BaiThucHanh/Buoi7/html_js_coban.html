@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <p id="description_paragraph">OK</p>
+  <img src="hinhdethuong.jpg" id="picture" alt="" onclick="changePicture()">
+  <button type="button" 
+  onclick="btnOnClick()">
+    Click Me!!!
+  </button>
+</body>
+</html>
+
+<script>
+  function btnOnClick(){
+    document.getElementById('description_paragraph').innerHTML = Date();
+  }
+  function changePicture(){
+    var youtubeimgsrc = document.getElementById("picture").src;
+    console.log(youtubeimgsrc);
+    if(youtubeimgsrc.includes("hinhdethuong"))
+    {
+      document.getElementById('picture').src='hinhworldcup.jpg';    
+    }
+    else
+    {
+      document.getElementById('picture').src='hinhdethuong.jpg';    
+    }
+  }
+</script>
