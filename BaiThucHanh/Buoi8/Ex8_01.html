@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style media="screen">
+    #student {
+      width: 100%;
+      font-family: Arial;
+      font-size: 16px;
+      border-collapse: collapse;
+    }
+
+    #student td,
+    #student th {
+      border: 1px solid #ddd;
+      padding: 7px;
+    }
+
+    #student th {
+      padding: 12px 0 12px 10px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: WHITE;
+    }
+
+    #student tr:nth-child(even) {
+      background-color: #ccbaba;
+    }
+
+    #student tr:hover {
+      background-color: #ddd;
+    }
+
+    #student tr:last-child {
+      text-align: center;
+      font-style: italic;
+      background-color: #434343;
+      color: WHITE;
+    }
+
+    .left-table {
+      width: 100%;
+      float: left;
+    }
+
+    .right-table {
+      width: 100%;
+      float: left;
+      background-color: green;
+      color:white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+
+  </div>
+  <div class="body">
+    <div class="left-table">
+      <table id="student">
+        <tr>
+          <th>STT</th>
+          <th>Họ và Tên</th>
+          <th>Nơi sinh</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Vũ Văn An</td>
+          <td>Bình Định</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Nguyễn Văn Thành</td>
+          <td>Nghệ An</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Cao Văn Lầu</td>
+          <td>Bến Tre</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Vũ Thế Việt</td>
+          <td>Đồng Nai</td>
+        </tr>
+        <tr>
+          <td colspan="3">BẢNG THÔNG TIN SINH VIÊN</td>
+        </tr>
+      </table>
+    </div>
+    <div class="right-table">
+      MORE INFORMATION BELOW!!! PLEASE CLICK "Details"!
+      <button type="button" name="button" onclick="btnOnClickHide()">Collapse</button>
+      <button type="button" name="button" onclick="btnOnClickShow()">Details</button>
+    </div>
+    <div class="right-table" id="right-table">
+        <!-- dislay css: invisible/ visible -->
+		<p>
+			WORLDCUP 2018 RUSSIA!
+		</p>
+    <p>
+        All teams are ready!
+    </p>
+    </div>
+  </div>
+  <div class="footer">
+
+  </div>
+
+</body>
+
+</html>
+<script>
+  function btnOnClickHide(){
+    var x = document.getElementsByClassName('right-table');
+    x[1].style.display = "none";
+  }
+  function btnOnClickShow(){
+    var x = document.getElementsByClassName('right-table');
+    x[1].style.display = "block";
+  }
+</script>
