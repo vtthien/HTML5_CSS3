@@ -1,4 +1,4 @@
-Buổi 6
+Buổi 7
 1. Khái niệm HTML Tree
 2. DOM - Document Object Model
 3. JavaScript
