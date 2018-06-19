@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      /* Descendant Selector */
+      div .paragraph{
+        color:red;
+      }
+      p {
+        color: blue !important;
+      }
+      /* Child Selector */
+      div > .paragraph{
+        color: green;
+        }
+      body > #para{
+        color: brown;
+      }
+      /* adjacent sibling */
+      div + b {
+        background-color: green;
+      }
+      div + a{
+        color: yellow;
+      }
+
+      div ~ b {
+        background-color: green;
+      }
+      div ~ a{
+        color: yellow;
+      }
+      li:hover{
+        color:red;
+      }
+      li::first-letter{
+        color: blue;
+      }
+      img{
+        opacity: 1;
+
+      }
+    </style>
+  </head>
+  <body>
+    <!-- CSS Selector Combinator -->
+    <img src="thieunu.jpg" alt="">
+    <div class="content">
+      <b>
+        <p class="paragraph">
+            Descendant selector
+        </p>
+      </b>
+      <p>
+          Child Selector
+      </p>
+      testing adjacent sibling
+    </div>
+	<a href="#">link adjacent sibling</a>
+    <b>adjacent sibling</b>
+    <p id="para">Para ngoai</p>
+<ul>
+  <li>HTML CSS</li>
+</ul>
+
+  </body>
+</html>
